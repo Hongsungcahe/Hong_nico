@@ -37,7 +37,7 @@ function handleToDoSubmit(event) {
   todoInput.value = "";
   const newTodoObj = {
     text: newTodo,
-    id: Date.now()
+    id: Date.now(),
   };
   toDos.push(newTodoObj);
   paintToDo(newTodoObj);
